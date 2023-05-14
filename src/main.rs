@@ -19,7 +19,7 @@ fn main() {
         let guess: u32 = match guess.trim().parse() {
             Ok(num) => num,
             Err(_) => {
-                println!("Wrong input");
+                println!("Enter a proper number, only numbers are considered a valid input");
                 continue;
             }
         };
