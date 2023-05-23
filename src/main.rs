@@ -11,6 +11,7 @@ fn main() {
         println!("Please input your guess.");
 
         let mut guess = String::new();
+     //   let mut guess1 = String::new1();
 
         io::stdin()
             .read_line(&mut guess)
